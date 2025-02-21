@@ -1,15 +1,19 @@
 The EdgeRouter X is old but still a great router. You can add Geo filtering by following this guide.
 
+
 Credits:
 https://www.cron.dk/firewalling-by-country-on-edgerouter/
 https://www.youtube.com/watch?v=Qn5hbdijYJM&t=3s
+These guides were a bit old so i updated them. Also i believe they were testing this on a Edge Router 4. I carried this out on a smaller Edge Router X
 
-These guides were a bit old.
+IP Deny - https://www.ipdeny.com/ipblocks/
+
 
 I carried this out version: EdgeRouter X v2.0.9-hotfix.7
 
-Create a firewall group:
 
+1.
+Create a firewall group:
 
 configure
 set firewall group network-group countries_allowed description 'Allowed countries'
@@ -19,3 +23,5 @@ save
 
 Create the script under
 See file country-load
+
+TBC
