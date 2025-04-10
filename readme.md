@@ -1,12 +1,12 @@
 The EdgeRouter X is old but still a great router. You can add Geo filtering by following this guide.
-You can use this method to block certain countries but in my case, i only wanted to allow US to my external facing applications.
+You can use this method to block certain countries but in my case, i only wanted to allow only US to my external facing applications.
 
 Credits:
 https://www.cron.dk/firewalling-by-country-on-edgerouter/
 https://www.youtube.com/watch?v=Qn5hbdijYJM&t=3s
 These guides were a bit old so i updated them. Also i believe they were testing this on a Edge Router 4. I carried this out on a smaller Edge Router X
 
-IP Deny - https://www.ipdeny.com/ipblocks/
+IP Deny EDL Used - https://www.ipdeny.com/ipblocks/
 
 
 I carried this out version: EdgeRouter X v2.0.9-hotfix.7
